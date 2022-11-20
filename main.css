@@ -1,0 +1,154 @@
+body {
+  background: url('images/daisy.svg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+a:link, a:visited, a:active {
+  color: rgb(56, 54, 54);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #d6a70b
+}
+
+/*--- navigation bar ---*/
+.navbar {
+  background: #fff;
+}
+
+.nav-item {
+  color: #d6a70b;
+  cursor: pointer;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+  color: #d6a70b;
+  cursor: pointer;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none;
+}
+
+.nav-link:link, .nav-link:active, .nav-link:visited {
+  text-decoration: none;
+  color: #d6a70b;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger8.svg?color=000');
+}
+
+.uvod {
+  position: relative;
+  text-align: center;
+  background: rgb(255, 255, 255);
+}
+
+.uvod-jmena {
+  color: #d6a70b;
+  font-size: 6rem;
+  font-family: 'Sacramento', cursive;
+  font-weight: 600;
+}
+
+.uvod-datum {
+  color: #000;
+  font-size: 2.8rem;
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+}
+
+.budesvatba {
+  position: relative;
+  text-align: center;
+}
+
+.budesvatba-text {
+  color: #000;
+  font-size: 5.5rem;
+  line-height: 4rem;
+  font-family: 'Sacramento', cursive;
+  font-weight: 400;
+}
+
+.budesvatba img {
+  max-width: 120px;
+}
+
+.harmonogram {
+  bottom: 0em;
+  padding-top: 2em;
+  padding-left: 0em;
+  padding-bottom: 1em;
+  position: relative;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+
+.features {
+  margin: 3em auto;
+  padding: 1em;
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  min-height: 10em;
+}
+
+.feature-title {
+  color: #d6a70b;
+  font-size: 2.8rem;
+  font-family: 'Sacramento', cursive;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.feature-text {
+  color: black;
+  font-size: 1.2rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.features img {
+  margin-bottom: 1px;
+}
+
+.features button {
+  border:1px solid #d6a70b;
+  background:#d6a70b;
+  border-radius: 1;
+  color:#fff;
+  min-inline-size: 100%;
+  font-size: 2.50em;
+  line-height: 1.2em;
+  font-family: 'Sacramento', cursive;
+  max-width: 20em;
+}
+.features button:hover {
+  border:1px solid #000;
+  background:#d6a70b;
+  color:#000;
+}
+
+.page-footer {
+  background-color: #d6a70b;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 30px 0 10px;
+}
